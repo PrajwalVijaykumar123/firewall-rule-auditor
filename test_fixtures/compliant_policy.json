@@ -1,0 +1,6 @@
+[
+  {"name": "allow-admin-ssh", "action": "allow", "protocol": "tcp", "src": "192.168.50.0/24", "dst": "any", "port": 22, "enabled": true},
+  {"name": "allow-https", "action": "allow", "protocol": "tcp", "src": "any", "dst": "any", "port": 443, "enabled": true},
+  {"name": "allow-http", "action": "allow", "protocol": "tcp", "src": "any", "dst": "any", "port": 80, "enabled": true},
+  {"name": "default-deny", "action": "deny", "protocol": "any", "src": "any", "dst": "any", "port": "any", "enabled": true}
+]

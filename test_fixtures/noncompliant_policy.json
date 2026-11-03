@@ -1,0 +1,5 @@
+[
+  {"name": "allow-anything", "action": "allow", "protocol": "any", "src": "any", "dst": "any", "port": "any", "enabled": true},
+  {"name": "allow-mysql-admin", "action": "allow", "protocol": "tcp", "src": "any", "dst": "any", "port": 3306, "enabled": true},
+  {"name": "block-known-bad-ip", "action": "deny", "protocol": "tcp", "src": "198.51.100.0/24", "dst": "any", "port": 3306, "enabled": true}
+]
